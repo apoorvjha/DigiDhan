@@ -1,0 +1,1 @@
+This folder contains profile pictures of users that need to be displayed on the web site.
