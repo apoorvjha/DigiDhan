@@ -1,0 +1,2 @@
+This folder consist of signature images registered as authentic to a particular user. There are 10 varied signature
+images associated with each user/account holder. These images are used to train our deep learning model.
