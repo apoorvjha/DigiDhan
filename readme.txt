@@ -1,4 +1,4 @@
-++++++++++++++++++++++++++++++++++++++++++++++++++ DEPENDENCIES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++ DEPENDENCIES +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 $ PYTHON3.x ; x>=5.
 $ PILLOW library(PYTHON).
@@ -11,9 +11,9 @@ $ Best viewed on google Chromium browser.
 $ RAM > 2GB.
 $ Screen resolution of 1366 X 768 pixels.
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++ End of DEPENDENCIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++ End of DEPENDENCIES ++++++++++++++++++++++++++++++++++++++++++
 
-++++++++++++++++++++++++++++++++++++++++++++++++++ Modules +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++ Modules ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 $ Home page
 $ Login
@@ -30,6 +30,6 @@ $ Admin pannel (apart from visitors and users, we have admins who have previledg
 $ Machine learning(this is responsible to analyse various signatures of user and train a neural network such that the signatures uploaded as transaction credentials are when fed into that model, it should output wheather the signature is authentic or not based on which status of transaction is changed in real time.)
 $ Contact (users and admins can talk to the super user to rectify their queries and doubts about the system.) 
 
-++++++++++++++++++++++++++++++++++++++++++++ End of module listing +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++ End of module listing ++++++++++++++++++++++++++++++++++++++++++++++++
 
  
