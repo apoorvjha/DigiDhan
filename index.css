@@ -1,0 +1,270 @@
+.header{
+background-color : black;
+border-radius : 10px;
+height : 100px; 
+}
+.logo_img{
+height : 100px;
+width : 150px;
+border-radius : 10px;
+position : absolute; 
+}
+.logo_text{
+position : relative;
+font-size : 30px;
+font-family : Ubuntu Condensed;
+}
+ul {
+list-style-type: none;
+margin: 10px;
+padding: 0;
+overflow: hidden;
+border: 1px solid #e7e7e7;
+background-color: #f3f3f3;
+}
+li{
+float: left;
+}
+li a{
+display: block;
+color: #666;
+text-align: center;
+padding: 15px 25px;
+text-decoration: none;
+}
+li a:hover:not(.active) {
+background-color: #ddd;
+}
+li a.active {
+color: white;
+background-color: black;
+}
+.menu{
+position : cover;
+background-color : grey;
+}
+.image1{
+position : absolute;
+height : 150px;
+width : 300px;
+}
+.desc_head{
+position : relative;
+}
+p{
+margin-bottom : 0.9em; 
+}
+.footer{
+background-color : black;
+border-radius : 10px;
+height : 100px;
+width : 1260px;
+color : #ddd;
+font-size : 20px;
+overflow: hidden;
+}
+.error{
+background-color : pink;
+border : 2px solid black;
+border-radius : 10px;
+width : 1100px;
+}
+.logout
+{
+background-color : pink;
+border : 2px solid black;
+border-radius : 10px;
+width : 900px;
+}
+.prof
+{
+background-color : red;
+display : block;
+}
+.profile
+{
+height : 50px;
+width : 50px;
+border : 2px solid yellow;
+border-radius : 50px;
+}
+.login{
+background-color : white;
+height : 250px;
+width : 350px;
+border : 1px solid black;
+}
+.button{
+background-color : navy;
+color : yellow;
+height : 30px;
+}
+.input{
+border : 1px solid black;
+border-radius : 10px;
+}
+.enclosure
+{
+background-color : #ddd;
+}
+.register{
+background-color : white;
+width : 500px;
+border : 1px solid black;
+}
+.bank_logo{
+height : 200px;
+width : 200px;
+}
+.det{
+background-color : gray;
+}
+a.contact_opt{
+text-decoration : none;
+}
+.chatbox{
+height : 600px;
+background-color : white;
+width : 500px;
+border : 2px solid black; 
+display : block;
+}
+.chathead
+{
+background-color : blue;
+height : 60px;
+position : relative;
+}
+.name{
+color: white;
+font-size : 20px;
+position : absolute;
+}
+.chatlets{
+border : 2px solid black;
+height : 400px;
+width : 400px;
+overflow : auto;
+}
+.msg{
+border-radius : 10px;
+border : 1px solid black; 
+}
+.send_btn{
+background-color : blue;
+color : white;
+border : 1px solid black;
+border-radius : 10px;
+height : 30px; 
+}
+.message1
+{
+background-color : blue;
+display : block;
+border-radius : 10px;
+border : 1px solid black;
+width : 200px;
+}
+.message2
+{
+background-color : orange;
+display : block;
+border-radius : 10px;
+border : 1px solid black;
+width : 200px;
+}
+.del_btn{
+background-color : red;
+color : white;
+border : 1px solid black;
+border-radius : 10px;
+height : 30px; 
+}
+.loginhead
+{
+background-color : blue;
+height : 40px;
+color : white;
+position : relative;
+border : 2px solid navy;
+font-size : 25px;
+}
+.con_opt
+{
+background-color : white;
+width : 500px;
+border : 2px solid black;
+}
+.user_index
+{
+background-color : gray;
+}
+.endorsement {
+height : 200px;
+width : 260px;
+border : 1px solid black;
+}
+
+.opt:hover {
+height : 200px;
+width : 260px;
+border : 5px solid green;
+}
+#opt1 {
+background-color : black;
+}
+#opt2{
+background-color : white;
+}
+
+.serv
+{
+border : 3px solid gray;
+width : 600px;
+}
+.virtual_check
+{
+background : url('SUPPORT_PIC/check_bg.jpeg');
+height : 350px;
+width : 1200px;
+border : 1px solid black;
+}
+.b_logo
+{
+height : 100px;
+width : 120px; 
+}
+.date_of_trans
+{
+
+position : absolute;
+}
+.payee
+{
+font-size : 20px;
+}
+.payee_name
+{
+width : 670px;
+border : 1px solid black;
+border-radius : 10px;
+}
+.box
+{
+border : 1px solid black;
+width : auto;
+}
+.box1
+{
+display : block;
+border : 1px solid black;
+width : 200px;
+position : relative;
+}
+.bal
+{
+background-color : green;
+color : orange;
+font-size : 20px; 
+width : 170px;
+}

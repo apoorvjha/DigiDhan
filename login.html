@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="shortcut icon" href="SUPPORT_PIC/logo.jpeg" /> <!-- For inserting custom mini icon on the title tab of web pages -->
+<title>Login</title>
+<script>
+function validate()
+{ /*
+	Function to validate form entries provided by the user so that less processing has to be done at
+	server.
+  */
+var uname=document.getElementById("uname").value;
+var password=document.getElementById("password").value;
+var email=document.getElementById("email").value;
+if((uname.length<3)||(password.length<7))
+{alert("Please try a valid combination!");
+return false;
+}
+return true;
+}
+</script>
+</head>
+<body>
+<div class="header">
+<img src="SUPPORT_PIC/logo.jpeg" height="106px" width="200px" class="logo_img">
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font color="#ddd" class="logo_text"><b>DigiDhan</b></font>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+</div>
+<div class="menu"><ul>
+<li><a href="index.php">Home</a></li>
+<li><a href="ventures.php">Ventures</a></li>
+<li><a href="careers.php">Careers</a></li>
+<li><a class="active" href="">Login</a></li>
+<li><a href="register.php">Register</a></li>
+<li><a href="about_us.php">About us</a></li>
+<li><a href="contact_us.php">Contact us</a></li>
+</ul>
+</div>
+<form method="post" action="login.php" onSubmit="return validate();">
+<div class="enclosure">
+<br>
+<center>
+<div class="login">
+<div class="loginhead"><center>Login</center></div>
+<table cellpadding="13px.">
+<tr>
+<td><font color="black"><b>User Name</b></font></td>
+<td><input type="text" name="uname" id="uname" class="input" placeholder="    User Name"></td>
+</tr>
+<tr>
+<td><font color="black"><b>Password</b></font></td>
+<td><input type="password" name="password" id="password" class="input" placeholder="   Password"></td>
+</tr>
+<tr>
+<td><font color="black"><b>Email</b></font></td>
+<td><input type="email" name="email" class="input" id="email" placeholder="   Email" required></td>
+</tr>
+<tr>
+<td><input type="reset" value="Reset" class="del_btn"></td>
+<td><input type="submit" value="Login" class="send_btn"></td>
+</tr>
+</table></div></center><br><br></div>
+</form><br>
+<div class="footer">
+<br>
+&nbsp;&nbsp;<font color="red">Disclaimer :</font> The site is under continous monitoring for malicious activities and somebody caught indulged in such act is liable to serious punishment.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The users are requested to contact us if they find anykind of difficulty in navigating the site to avail the services they are subscribed with. 
+</div>
+</body>
+</html>
