@@ -1,0 +1,1 @@
+This folder stores images used over styling of this project.
