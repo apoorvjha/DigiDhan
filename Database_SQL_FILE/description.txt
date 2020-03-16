@@ -1,0 +1,1 @@
+This folder contains .sql file which need to be imported into your XAMPP or WAMPP phpmyadmin pannel.
