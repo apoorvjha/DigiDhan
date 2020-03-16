@@ -32,4 +32,31 @@ $ Contact (users and admins can talk to the super user to rectify their queries 
 
 ++++++++++++++++++++++++++++++++++++++++++++ End of module listing ++++++++++++++++++++++++++++++++++++++++++++++++
 
+++++++++++++++++++++++++++++++++++++++++++++ Functioning of the code ++++++++++++++++++++++++++++++++++++++++++++++
+# create a database with name as "DigiDhan" in your XAMPP/WAMPP admin pannel. 
+# user of this database should be "root" and password for it should be null.
+
+@ if you want to do otherwise then corresponding changes need to be done inside the connectivity code of PHP-MYSQL 
+and PYTHON-MYSQL.
+
+# "index.php" is home page of our web site. 
+# For activating a new registered users you need to login as admin/super user and then activate the correspondig user from admin pannel.
+# For deactivating users we have same procedure as for activating users.
+# As users/admin you can chat with super user using inbuilt chat application.
+# The super user you will get a pannel of listing all users who texted you and you can choose either to read the chat or delete the chats from that user.
+# You can issue and deposit cheque through our services without worrying about physical visit to bank's branch.
+# As part of processing the cheque(signature) and indivisual signatures go through authentication on a trained deep learning
+signature recognition model which is essentially a custom made backpropagation neural network. Which automatically changes the status of the transaction based on the label it predicts for the cheque(signature) or indivisual signature in real time using AJAX framework.
+# Most of Fetch in the project is AJAX implementation to provide seamless experience to users.
  
++++++++++++++++++++++++++++++++++++++++++ End of functioning details +++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++ Problems that need to be addressed +++++++++++++++++++++++++++++++++++++
+! Backpropagation neural network is slow in comparison to convolution neural network. Speed is crucial in domain we are dealing with as a typical bank can have ~ 1million users (atleast) and for each user we store 10 images that means we need
+to train our model on ~10 million images which will take more time to process requests in comparison to traditional system.
+
+! We are not using any hashing or encryption and decryption scheme for passwords so users accounts are vulnerable to
+account hijacking if database is compromised.
+
+! Alot of redundant peice of code is present on each code page which need to segmented so that overall size of the project can be reduced.
+
