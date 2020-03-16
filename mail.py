@@ -3,14 +3,16 @@ import smtplib
 #from email.MIMEText import MIMEText
 
 def mail(toaddr,subject,body):
+	mail="example@abc.com"
+	password="example_password"
 	server=smtplib.SMTP("smtp.gmail.com",25)
 	server.ehlo()
 	server.starttls()
 	server.ehlo()
-	server.login("otbsinfra@gmail.com","OTBS@otbs123")
-	fromaddr="otbsinfra@gmail.com"
+	server.login(mail , password)   # inplace of mail you need to put your 'email' address and in place of 'password' you email password.
+ 	fromaddr=mail
 	text=subject+"\n"+body
-	server.sendmail("otbsinfra@gmail.com",toaddr,text)
+	server.sendmail(mail,toaddr,text)
 	server.quit()
 	return
 
