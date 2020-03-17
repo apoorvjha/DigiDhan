@@ -45,6 +45,7 @@ and PYTHON-MYSQL.
 # As users/admin you can chat with super user using inbuilt chat application.
 # The super user you will get a pannel of listing all users who texted you and you can choose either to read the chat or delete the chats from that user.
 # You can issue and deposit cheque through our services without worrying about physical visit to bank's branch.
+# You need to start execution of "driver.py" python script before you move on to the web site as it will run as single threaded server that processes the cheque issue or deposit requests. 
 # As part of processing the cheque(signature) and indivisual signatures go through authentication on a trained deep learning
 signature recognition model which is essentially a custom made backpropagation neural network. Which automatically changes the status of the transaction based on the label it predicts for the cheque(signature) or indivisual signature in real time using AJAX framework.
 # Most of Fetch in the project is AJAX implementation to provide seamless experience to users.
