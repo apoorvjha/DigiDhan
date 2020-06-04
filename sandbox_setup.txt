@@ -1,0 +1,3 @@
+$ python -m smtpd -c DebuggingServer -n localhost:8081    # setsup a virtual environment which helps us test the mail functionality.
+$ python Mail_Server.py                                   # starts the mail server which sends the emails.
+$ python3 Driver_Script.py                                # starts the main driver of the project which controls the flow of project.
