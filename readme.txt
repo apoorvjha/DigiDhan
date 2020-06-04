@@ -52,6 +52,12 @@ signature recognition model which is essentially a custom made backpropagation n
  
 +++++++++++++++++++++++++++++++++++++++++ End of functioning details +++++++++++++++++++++++++++++++++++++++++++++
 
++++++++++++++++++++++++++++++++++++++++++ Sandbox setup ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Please refer to sandbox_setup.txt file for setup an environment for the code to run on local execution environment.
+
++++++++++++++++++++++++++++++++++++++++++ end of sandbox setup++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
 +++++++++++++++++++++++++++++++++++++++++ Problems that need to be addressed +++++++++++++++++++++++++++++++++++++
 ! Backpropagation neural network is slow in comparison to convolution neural network. Speed is crucial in domain we are dealing with as a typical bank can have ~ 1million users (atleast) and for each user we store 10 images that means we need
 to train our model on ~10 million images which will take more time to process requests in comparison to traditional system.
@@ -60,4 +66,4 @@ to train our model on ~10 million images which will take more time to process re
 account hijacking if database is compromised.
 
 ! Alot of redundant peice of code is present on each code page which need to segmented so that overall size of the project can be reduced.
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
