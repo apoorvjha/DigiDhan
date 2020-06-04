@@ -4,7 +4,7 @@ from email.MIMEText import MIMEText
 f=open("mail_log.txt","r")
 while(1):
   server=smtplib.SMTP("localhost",8081)
-	fromaddr="DigiDhan20@gmail.com"
+	fromaddr="example@gmail.com"  # example mail id 
 	k=f.readline()
 	#print(k)
 	if len(k)!=0:
