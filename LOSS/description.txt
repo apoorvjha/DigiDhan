@@ -1,0 +1,1 @@
+This folder contains the jpeg images of plots showing variation of loss as the trainning progresses over the trainning set. 
