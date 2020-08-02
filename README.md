@@ -1,0 +1,2 @@
+# DigiDhan
+This repository contains code for project that deals with helping banks and account holders to automate the banking workflow such as cheque issue-deposit, credit/debit card request, account management, and  track transaction of their cheque from portable platforms in realtime. This project makes use of deep learning model trained on pre-authenticated signature images to authenticate cheque and signatures issued at time of transaction. 
