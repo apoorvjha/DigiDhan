@@ -1,7 +1,7 @@
 import smtplib
 import quickstart    # gmail API call
 f=open("mail_log.txt","r")
-sender="DigiDhan20@gmail.com"
+sender="example@gmail.com"     # put the email id for which you have an active gmail api token.
 while(1):
 	k=f.readline()
 	if len(k)!=0:
