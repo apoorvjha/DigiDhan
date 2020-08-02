@@ -1,0 +1,1 @@
+This folder contains the signature/ cheque images which is submitted as part of a process for transaction. 
