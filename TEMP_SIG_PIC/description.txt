@@ -1,0 +1,1 @@
+This folder contains the preprocessed signature images that exists within the database associated to various users.
